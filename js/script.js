@@ -1,23 +1,10 @@
-const imgOne = "images/background1.png";
-const imgTwo = "images/background8.jpg";
-const imgThree = "images/background7.png";
-const imgFour = "images/background4.png";
-const imgFive = "images/background10.png";
-const imgSix = "images/background2.png";
-const imgSeven = "images/background3.png";
-const imgEight = "images/background5.png";
+const imgOne = "images/background7.png";
+const imgTwo = "images/background4.png";
+const imgThree = "images/background10.png";
+const imgFour = "images/background3.png";
+const imgFive = "images/background5.png";
 
-var images = [
-  imgOne,
-  imgTwo,
-  imgThree,
-  imgFour,
-  imgFive,
-  imgSix,
-  imgSeven,
-  imgEight,
-];
-
+var images = [imgOne, imgTwo, imgThree, imgFour, imgFive];
 var slider = setInterval(function () {
   document
     .getElementsByClassName("top-container")[0]
