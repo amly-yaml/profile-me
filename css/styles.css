@@ -93,12 +93,16 @@ p {
 /*----------top container------*/
 .top-container {
   background-color: #e1ebe8;
-  background: no-repeat center fixed url("../images/background5.png");
+  background: fixed url("../images/background5.png") center center / cover
+    no-repeat;
   position: relative;
   width: 100%;
-  height: 1000px;
+  height: 100vh;
   margin: 0;
   padding: 0px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .job {
@@ -585,7 +589,8 @@ figure.output:hover h2::after {
   }
 
   .top-container {
-    background: no-repeat fixed url("../images/background5.png");
+    background: fixed url("../images/background5.png") center center / cover
+      no-repeat;
     height: 920px;
   }
 
@@ -669,7 +674,8 @@ figure.output:hover h2::after {
 
   /*----------top container--------*/
   .top-container {
-    background: no-repeat fixed url("../images/background5.png");
+    background: fixed url("../images/background5.png") center center / cover
+      no-repeat;
     height: 900px;
   }
   /*----------middle container--------*/
@@ -754,7 +760,8 @@ figure.output:hover h2::after {
 
   /*----------top container--------*/
   .top-container {
-    background: no-repeat center fixed url("../images/background5.png");
+    background: fixed url("../images/background5.png") center center / cover
+      no-repeat;
   }
 
   .logo {
