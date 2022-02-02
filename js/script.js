@@ -4,10 +4,8 @@ const imgThree = "images/background7.png";
 const imgFour = "images/background4.png";
 const imgFive = "images/background10.png";
 const imgSix = "images/background2.png";
-const imgSeven = "images/background6.png";
-const imgEight = "images/background9.png";
-const imgNine = "images/background3.png";
-const imgTen = "images/background5.png";
+const imgSeven = "images/background3.png";
+const imgEight = "images/background5.png";
 
 var images = [
   imgOne,
@@ -18,8 +16,6 @@ var images = [
   imgSix,
   imgSeven,
   imgEight,
-  imgNine,
-  imgTen,
 ];
 
 var slider = setInterval(function () {
