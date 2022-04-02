@@ -1,10 +1,8 @@
-const imgOne = "images/background7.png";
+const imgOne = "images/background3.png";
 const imgTwo = "images/background4.png";
-const imgThree = "images/background10.png";
-const imgFour = "images/background3.png";
-const imgFive = "images/background5.png";
+const imgThree = "images/background5.png";
 
-var images = [imgOne, imgTwo, imgThree, imgFour, imgFive];
+var images = [imgOne, imgTwo, imgThree];
 var slider = setInterval(function () {
   document
     .getElementsByClassName("top-container")[0]
