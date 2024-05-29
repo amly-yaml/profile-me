@@ -188,6 +188,10 @@ hr {
   margin: 30px 0;
 }
 
+.backgrounf-note {
+  color: #ffce64;
+}
+
 .wrapper {
   box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -266,20 +270,18 @@ ul.skills-list li::before {
   line-height: 13px;
 }
 
-.resume-link {
+.cv-button .resume-link {
   border-radius: 5px;
-  padding: 1.7rem 3rem;
-  font-size: 14px;
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-  line-height: 1;
-  text-decoration: none;
-  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  margin-top: 30px;
-  color: #64ffda;
   background-color: transparent;
   border: 1px solid #64ffda;
-  position: relative;
+  color: #64ffda;
   display: inline-block;
+  line-height: 1;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: 14px;
+  padding: 1.7rem 3rem;
+  text-decoration: none;
+  margin-top: 30px;
 }
 
 .cv-button .resume-link:hover {
@@ -411,6 +413,7 @@ ul.skills-list li::before {
 
 .project-contents h3 {
   color: #ccd6f6;
+  font-size: 20px;
   margin-bottom: 25px;
 }
 
@@ -448,7 +451,8 @@ ul.skills-list li::before {
   border-radius: 7px;
   position: relative;
   color: #a8b2d1;
-  font-size: 18px;
+  font-weight: 350;
+  font-size: 1.6rem;
   box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   background-color: #112240;
